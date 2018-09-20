@@ -1,5 +1,5 @@
 project(mongoose)
-
+set(MONGOOSE_ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 if(NOT MONGOOSE_ROOT_DIR)
   message(FATAL_ERROR "MONGOOSE_ROOT_DIR must be set to the location of mongoose sources.")
 else()
